@@ -58,11 +58,13 @@ proxied="false"  # "true" OR "false"
 # * * * * * /bin/sh /{Path}/{FileName}
 ```
 
+**Note:**
+
 in general you can do "Cron Job" in your Hosting server like that
 ```
 * * * * * /bin/sh /{Path}/{FileName}
 ```
-but the problem that you will get the ipv4 or ipv6 of the server itself
-
+but the problem that you will get the ipv4 or ipv6 of the server itself,
+<br>
 so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows.
 
