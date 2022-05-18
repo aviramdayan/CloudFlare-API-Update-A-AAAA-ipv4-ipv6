@@ -58,7 +58,9 @@ proxied="false"  # "true" OR "false"
 # * * * * * /bin/sh /{Path}/{FileName}
 ```
 
+in general you can do "Cron Job" in your Hosting server like that
 ```
 * * * * * /bin/sh /{Path}/{FileName}
 ```
+but the problem that you will get the ipv4 or ipv6 of the server itself
 
