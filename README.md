@@ -64,3 +64,5 @@ in general you can do "Cron Job" in your Hosting server like that
 ```
 but the problem that you will get the ipv4 or ipv6 of the server itself
 
+so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows.
+
