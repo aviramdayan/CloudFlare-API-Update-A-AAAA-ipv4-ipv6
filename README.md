@@ -43,6 +43,9 @@ proxied="false"  # "true" OR "false"
 ```
 
 
+<br>
+
+**Cron Job:**
 ```
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
