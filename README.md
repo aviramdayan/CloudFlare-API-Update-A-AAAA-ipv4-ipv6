@@ -4,7 +4,7 @@ Date: 18/05/2022 18:00PM
 
 <br>
 
-**Config**
+**Config:**
 
 auth_email
 
