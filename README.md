@@ -55,5 +55,10 @@ proxied="false"  # "true" OR "false"
 # │ │ │ │ │ ┌───────────── command to issue                               
 # │ │ │ │ │ │
 # │ │ │ │ │ │
-# * * * * * /bin/bash {Location of the script}
+# * * * * * /bin/sh /{Path}/{FileName}
 ```
+
+```
+* * * * * /bin/sh /{Path}/{FileName}
+```
+
