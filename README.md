@@ -104,21 +104,21 @@ cd {path}  //ex:   cd 'C:\Users\UserName\Desktop'
 
 //to check the script if there is a bugs (Sometimes if there is a "while loop" inside .sh script, it will run / execute)
 ```
-bash -x ./{filename}  //ex: bash -x   ./CloudFlare.sh 
+bash -x ./{filename}  //example: bash -x ./CloudFlare.sh 
 ```
 
 <br>
 
 //if all ok - run/execute (as administrator)
 ```
-chmod +x {filename}  //ex:   chmod +x CloudFlare.sh
+chmod +x {filename}  //example: chmod +x CloudFlare.sh
 ```
 
 <br>
 
 //after just normal run/execute
 ```
-./{filename}  //ex:   ./CloudFlare.sh
+./{filename}  //example: ./CloudFlare.sh
 ```
 
 <br>
