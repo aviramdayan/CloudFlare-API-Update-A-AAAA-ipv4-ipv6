@@ -94,7 +94,7 @@ bash shell - commands to start and run:
 
 //go to path
 ```
-cd {path}  //ex:   cd 'C:\Users\UserName\Desktop'
+cd {path}  //ex:   cd 'c:\Users\UserName\Desktop'
 ```
 
 <br>
