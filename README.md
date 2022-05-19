@@ -4,7 +4,7 @@ Date: 18/05/2022 18:00PM
 <br>
 CloudFlare-API-Update-A-AAAA-ipv4-ipv6 (ddns)
 
-<br>
+<br id="config">
 
 **Config:**
 
@@ -45,7 +45,7 @@ proxied="false"  # "true" OR "false"
 ```
 
 
-<br>
+<br id="cron">
 
 **Cron Job:**
 ```
@@ -69,4 +69,89 @@ in general you can do "Cron Job" in your Hosting server like that
 but the problem that you will get the ipv4 or ipv6 of the server itself,
 <br>
 so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows.
+
+<br id="bash_shell">
+
+**bash shell: guide**
+
+<br>
+//========//
+<br>
+bash shell - bash.exe (source)
+<br>
+//========//
+<br>
+<br>
+download the "bash shell" (Linux syntax) for windows 7 and above (in windows 10 no need, there is the "bash shell" bash.exe built in)
+download here: https://sourceforge.net/projects/win-bash/files/shell-complete/latest/
+
+<br>
+<br>
+//========//
+<br>
+bash shell - commands to start and run:
+<br>
+//========//
+<br>
+<br>
+
+//go to path
+```
+cd {path}  //ex:   cd 'C:\Users\TestUser\Desktop'
+```
+
+<br>
+
+//to check the script if there is a bugs (Sometimes if there is a "while loop" inside .sh script, it will run / execute)
+```
+bash -x ./{filename}  //ex: bash -x   ./CloudFlare.sh 
+```
+
+<br>
+
+//if all ok - run/execute (as administrator)
+```
+chmod +x {filename}  //ex:   chmod +x CloudFlare.sh
+```
+
+<br>
+
+//after just normal run/execute
+```
+./{filename}  //ex:   ./CloudFlare.sh
+```
+
+<br>
+//========//
+<br>
+bash shell - use "MobaXterm" - Linux Terminal Emulator - tool
+<br>
+//========//
+<br>
+
+command-lines: https://blog.mobatek.net/post/mobaxterm-command-lines/
+BATCH script - example: https://mobaxterm.mobatek.net/documentation.html#6_7_1
+
+//".bat" file - example - go to path, after run/start app + command and between wait after each command and in the end exit
+echo ( Message: START CODE )
+@ECHO OFF
+Timeout 1
+cd "C:\Program Files (x86)\Mobatek\MobaXterm" 
+Timeout 1
+start MobaXterm.exe -newtab "waitforX; cd 'c:\Users\TestUser\Desktop\CloudFlare-Update-IP' waitforX; bash -x ./CloudFlare-API-Update-A-AAAA-ipv4-ipv6.sh " -exitwhendone
+Timeout 2
+echo ( Message: END CODE )
+
+//".bat" file - example - go to path, after run/start app + start a macro
+echo ( Message: START CODE )
+@ECHO OFF
+Timeout 2
+cd "C:\Program Files (x86)\Mobatek\MobaXterm" 
+Timeout 2
+start MobaXterm.exe -newtab -runmacro "waitforX;  AD_CloudFlare_Update_IP"
+Timeout 2
+echo ( Message: END CODE )
+
+//=============//
+//=============//
 
