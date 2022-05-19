@@ -122,7 +122,8 @@ chmod +x {filename}  //example: chmod +x CloudFlare.sh
 
 #### bash shell - use "MobaXterm" - Linux Terminal Emulator - tool - Method 2
 <br>
-
+download here: https://mobaxterm.mobatek.net/download.html
+<br>
 command-lines: https://blog.mobatek.net/post/mobaxterm-command-lines/
 <br>
 BATCH script - example: https://mobaxterm.mobatek.net/documentation.html#6_7_1
