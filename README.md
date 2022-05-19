@@ -6,7 +6,7 @@ CloudFlare-API-Update-A-AAAA-ipv4-ipv6 (ddns)
 
 <br id="config">
 
-**Config:**
+## Config
 
 auth_email
 
@@ -47,7 +47,7 @@ proxied="false"  # "true" OR "false"
 
 <br id="cron">
 
-**Cron Job:**
+## Cron Job
 ```
 # ┌───────────── minute (0 - 59)
 # │ ┌───────────── hour (0 - 23)
@@ -72,17 +72,14 @@ so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows.
 
 <br id="bash_shell">
 
-**bash shell: guide**
+## bash shell: guide
 
-<br>
-//========//
-<br>
-bash shell - bash.exe (source)
-<br>
-//========//
-<br>
+<br id="bash_shell_method_1">
+
+#### bash shell - bash.exe (source) - Method 1
 <br>
 download the "bash shell" (Linux syntax) for windows 7 and above (in windows 10 no need, there is the "bash shell" bash.exe built in)
+<br>
 download here: https://sourceforge.net/projects/win-bash/files/shell-complete/latest/
 
 <br>
@@ -121,16 +118,13 @@ chmod +x {filename}  //example: chmod +x CloudFlare.sh
 ./{filename}  //example: ./CloudFlare.sh
 ```
 
-<br>
-//========//
-<br>
-bash shell - use "MobaXterm" - Linux Terminal Emulator - tool
-<br>
-//========//
-<br>
+<br id="bash_shell_method_2">
+
+#### bash shell - use "MobaXterm" - Linux Terminal Emulator - tool - Method 2
 <br>
 
 command-lines: https://blog.mobatek.net/post/mobaxterm-command-lines/
+<br>
 BATCH script - example: https://mobaxterm.mobatek.net/documentation.html#6_7_1
 
 <br>
