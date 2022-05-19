@@ -97,7 +97,7 @@ bash shell - commands to start and run:
 
 //go to path
 ```
-cd {path}  //ex:   cd 'C:\Users\TestUser\Desktop'
+cd {path}  //ex:   cd 'C:\Users\UserName\Desktop'
 ```
 
 <br>
@@ -128,11 +128,15 @@ bash shell - use "MobaXterm" - Linux Terminal Emulator - tool
 <br>
 //========//
 <br>
+<br>
 
 command-lines: https://blog.mobatek.net/post/mobaxterm-command-lines/
 BATCH script - example: https://mobaxterm.mobatek.net/documentation.html#6_7_1
 
+<br>
+
 //".bat" file - example - go to path, after run/start app + command and between wait after each command and in the end exit
+```
 echo ( Message: START CODE )
 @ECHO OFF
 Timeout 1
@@ -141,8 +145,12 @@ Timeout 1
 start MobaXterm.exe -newtab "waitforX; cd 'c:\Users\TestUser\Desktop\CloudFlare-Update-IP' waitforX; bash -x ./CloudFlare-API-Update-A-AAAA-ipv4-ipv6.sh " -exitwhendone
 Timeout 2
 echo ( Message: END CODE )
+```
+
+<br>
 
 //".bat" file - example - go to path, after run/start app + start a macro
+```
 echo ( Message: START CODE )
 @ECHO OFF
 Timeout 2
@@ -151,7 +159,4 @@ Timeout 2
 start MobaXterm.exe -newtab -runmacro "waitforX;  AD_CloudFlare_Update_IP"
 Timeout 2
 echo ( Message: END CODE )
-
-//=============//
-//=============//
-
+```
