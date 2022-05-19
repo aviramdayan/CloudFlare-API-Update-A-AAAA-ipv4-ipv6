@@ -136,7 +136,7 @@ echo ( Message: START CODE )
 Timeout 1
 cd "C:\Program Files (x86)\Mobatek\MobaXterm" 
 Timeout 1
-start MobaXterm.exe -newtab "waitforX; cd 'c:\Users\TestUser\Desktop\CloudFlare-Update-IP' waitforX; bash -x ./CloudFlare-API-Update-A-AAAA-ipv4-ipv6.sh " -exitwhendone
+start MobaXterm.exe -newtab "waitforX; cd 'c:\Users\UserName\Desktop' waitforX; bash -x ./CloudFlare-API-Update-A-AAAA-ipv4-ipv6.sh " -exitwhendone
 Timeout 2
 echo ( Message: END CODE )
 ```
@@ -150,7 +150,7 @@ echo ( Message: START CODE )
 Timeout 2
 cd "C:\Program Files (x86)\Mobatek\MobaXterm" 
 Timeout 2
-start MobaXterm.exe -newtab -runmacro "waitforX;  AD_CloudFlare_Update_IP"
+start MobaXterm.exe -newtab -runmacro "waitforX; YourMacroName"
 Timeout 2
 echo ( Message: END CODE )
 ```
