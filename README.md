@@ -113,7 +113,9 @@ after "Save File"
 
 #### bash shell - bash.exe (source) - Method 1
 <br>
-download the "bash shell" (Linux syntax) for windows 7 and above (in windows 10 no need, there is the "bash shell" bash.exe built in)
+download the "bash shell" (Linux syntax) for windows 7 and above 
+<br>
+(in windows 10 no need, there is the "bash shell" bash.exe built in)
 <br>
 download here: https://sourceforge.net/projects/win-bash/files/shell-complete/latest/
 
