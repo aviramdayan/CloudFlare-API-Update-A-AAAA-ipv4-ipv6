@@ -81,7 +81,7 @@ General Note for ".sh" - file type extension and "End of Line Conversion"
 <br>
 If you using with "Windows" system, so need to prepare for the "Linux" environment (End of Line Conversion)
 <br>
-It's good to not face with problems of "LineBreak" 
+It's better to not face with problems like "LineBreak" in your code
 <br>
 <br>
 example how it look like in "Windows"
