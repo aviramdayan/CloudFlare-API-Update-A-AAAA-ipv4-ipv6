@@ -74,6 +74,41 @@ so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows or w
 
 ## bash shell: guide
 
+<br id="sh_file_type_extension">
+
+#### bash shell - ".sh" - file type extension 
+General Note for ".sh" - file type extension and "End of Line Conversion"
+<br>
+If you using with "Windows" system, so need to prepare for the "Linux" environment (End of Line Conversion)
+<br>
+It's good to not face with problems of "LineBreak" 
+<br>
+<br>
+example how it look like in "Windows"
+<br>
+Line A\r\n
+<br>
+Line B\r\n
+<br>
+<br>
+example how it look like in "Linux"
+<br>
+Line A\n
+<br>
+Line B\n
+<br>
+
+<br id="sh_solution">
+
+#### Solution - .sh
+
+```
+in Notepad++ or (similar editor)
+Open Your ".sh" File
+go to "Edit" after "Eol Conversion" and in the end choose "Unix (LF)"
+after "Save File"
+```
+
 <br id="bash_shell_method_1">
 
 #### bash shell - bash.exe (source) - Method 1
