@@ -77,7 +77,7 @@ so better to GET your ipv4 or ipv6 - do it with "Task Scheduler" in windows or w
 <br id="sh_file_type_extension">
 
 #### bash shell - ".sh" - file type extension 
-General Note for ".sh" - file type extension and "End of Line Conversion"
+General Note for ".sh" - file type extension and system environment "End of Line Conversion"
 <br>
 If you using with "Windows" system, so need to prepare for the "Linux" environment (End of Line Conversion)
 <br>
